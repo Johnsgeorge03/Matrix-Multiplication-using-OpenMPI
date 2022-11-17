@@ -1,0 +1,228 @@
+SIZE=100
+
+core=1
+Time taken: 0.009725 secs
+Time taken: 0.008485 secs
+Time taken: 0.008456 secs
+Time taken: 0.008506 secs
+Time taken: 0.008517 secs
+
+core=2
+Time taken: 0.007795 secs
+Time taken: 0.007915 secs
+Time taken: 0.007901 secs
+Time taken: 0.007870 secs
+Time taken: 0.007728 secs
+
+core=4
+Time taken: 0.007239 secs
+Time taken: 0.007410 secs
+Time taken: 0.007374 secs
+Time taken: 0.007326 secs
+Time taken: 0.007477 secs
+
+core=8
+Time taken: 0.007401 secs
+Time taken: 0.006809 secs
+Time taken: 0.006696 secs
+Time taken: 0.006795 secs
+Time taken: 0.006804 secs
+
+core=10
+Time taken: 0.007007 secs
+Time taken: 0.007263 secs
+Time taken: 0.008014 secs
+Time taken: 0.007003 secs
+Time taken: 0.006915 secs
+
+
+SIZE=200
+
+core=1
+Time taken: 0.044593 secs
+Time taken: 0.044373 secs
+Time taken: 0.044291 secs
+Time taken: 0.044468 secs
+Time taken: 0.044391 secs
+
+core=2
+Time taken: 0.034950 secs
+Time taken: 0.035091 secs
+Time taken: 0.035410 secs
+Time taken: 0.035089 secs
+Time taken: 0.035325 secs
+
+core=4
+Time taken: 0.030740 secs
+Time taken: 0.030438 secs
+Time taken: 0.030395 secs
+Time taken: 0.030377 secs
+Time taken: 0.030482 secs
+
+core=8
+Time taken: 0.027898 secs
+Time taken: 0.029505 secs
+Time taken: 0.027877 secs
+Time taken: 0.028060 secs
+Time taken: 0.028099 secs
+
+core=10
+Time taken: 0.027857 secs
+Time taken: 0.028427 secs
+Time taken: 0.028294 secs
+Time taken: 0.028491 secs
+Time taken: 0.028640 secs
+
+
+SIZE=400
+
+core=1
+Time taken: 0.259402 secs
+Time taken: 0.259777 secs
+Time taken: 0.259005 secs
+Time taken: 0.259100 secs
+Time taken: 0.259118 secs
+
+core=2
+Time taken: 0.182508 secs
+Time taken: 0.184432 secs
+Time taken: 0.182078 secs
+Time taken: 0.185214 secs
+Time taken: 0.184940 secs
+
+core=4
+Time taken: 0.144385 secs
+Time taken: 0.142738 secs
+Time taken: 0.143550 secs
+Time taken: 0.142022 secs
+Time taken: 0.141676 secs
+
+core=8
+Time taken: 0.122577 secs
+Time taken: 0.122433 secs
+Time taken: 0.122021 secs
+Time taken: 0.121761 secs
+Time taken: 0.123067 secs
+
+core=10
+Time taken: 0.122697 secs
+Time taken: 0.123250 secs
+Time taken: 0.123278 secs
+Time taken: 0.124933 secs
+Time taken: 0.124965 secs
+
+
+SIZE=800
+
+core=1
+Time taken: 1.731008 secs
+Time taken: 1.761275 secs
+Time taken: 1.736696 secs
+Time taken: 1.753278 secs
+Time taken: 1.742119 secs
+
+core=2
+Time taken: 1.084065 secs
+Time taken: 1.086506 secs
+Time taken: 1.084354 secs
+Time taken: 1.086778 secs
+Time taken: 1.084842 secs
+
+core=4
+Time taken: 0.749666 secs
+Time taken: 0.749517 secs
+Time taken: 0.751153 secs
+Time taken: 0.746666 secs
+Time taken: 0.749142 secs
+
+core=8
+Time taken: 0.612731 secs
+Time taken: 0.604288 secs
+Time taken: 0.595532 secs
+Time taken: 0.588694 secs
+Time taken: 0.595798 secs
+
+core=10
+Time taken: 0.580421 secs
+Time taken: 0.569801 secs
+Time taken: 0.575257 secs
+Time taken: 0.566726 secs
+Time taken: 0.568392 secs
+
+
+SIZE=1600
+
+core=1
+Time taken: 12.115931 secs
+Time taken: 12.138232 secs
+Time taken: 12.149716 secs
+Time taken: 12.198496 secs
+Time taken: 12.139975 secs
+
+core=2
+Time taken: 7.038174 secs
+Time taken: 7.028549 secs
+Time taken: 7.046847 secs
+Time taken: 7.049511 secs
+Time taken: 7.042244 secs
+
+core=4
+Time taken: 4.376962 secs
+Time taken: 4.381395 secs
+Time taken: 4.384054 secs
+Time taken: 4.386682 secs
+Time taken: 4.395440 secs
+
+core=8
+Time taken: 3.062485 secs
+Time taken: 3.039561 secs
+Time taken: 3.053825 secs
+Time taken: 3.110263 secs
+Time taken: 3.036379 secs
+
+core=10
+Time taken: 2.836378 secs
+Time taken: 2.881529 secs
+Time taken: 2.901361 secs
+Time taken: 2.866368 secs
+Time taken: 2.865534 secs
+
+
+SIZE=3200
+
+core=1
+Time taken: 91.922895 secs
+Time taken: 91.167902 secs
+Time taken: 91.350874 secs
+Time taken: 91.322368 secs
+Time taken: 91.722188 secs
+
+core=2
+Time taken: 50.123294 secs
+Time taken: 49.908086 secs
+Time taken: 49.938720 secs
+Time taken: 49.913683 secs
+Time taken: 50.076109 secs
+
+core=4
+Time taken: 28.659327 secs
+Time taken: 28.412979 secs
+Time taken: 28.472212 secs
+Time taken: 28.467556 secs
+Time taken: 28.520760 secs
+
+core=8
+Time taken: 17.735589 secs
+Time taken: 17.681967 secs
+Time taken: 17.991371 secs
+Time taken: 17.675880 secs
+Time taken: 17.689795 secs
+
+core=10
+Time taken: 16.486021 secs
+Time taken: 16.649960 secs
+Time taken: 16.562594 secs
+Time taken: 16.526021 secs
+Time taken: 16.526061 secs
+
+
