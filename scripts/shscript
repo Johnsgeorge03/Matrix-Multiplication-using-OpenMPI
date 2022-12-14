@@ -1,25 +1,28 @@
 #!/bin/bash
-declare -A a=(100 200 400 800 1600 3200)
-declare -A cores=(1 2 4 8 10)
+declare a=(100 200 400 800)
+declare cores=(1 2 4 6 8 10)
+
+(cd ../src && make clean)
+(cd ../src && make all)
 
 rm ../output/timings.txt
 rm ../output/mat.txt 
-(cd ../src && make clean)
-(cd ../src && make all)
 for s in "${a[@]}"
 do
-    echo SIZE="$s" >> ../output/timings.txt
-    echo >> ../output/timings.txt
+    echo SIZE="$s" >&1 | tee -a ../output/timings.txt
+    echo >&1 | tee -a ../output/timings.txt
     for c in "${cores[@]}"
     do
-        echo core="$c" >> ../output/timings.txt
+        echo core="$c" >&1 | tee -a ../output/timings.txt
         for i in {1..5}
         do
-            mpiexec -n "$c" ../src/main "$s" "$s" "$s" >> ../output/timings.txt
+            mpiexec -n "$c" ../src/main "$s" "$s" "$s" >&1 | tee -a ../output/timings.txt
             rm ../output/mat.txt 
         done
-        echo >> ../output/timings.txt
+        echo >&1 | tee -a ../output/timings.txt
     done
-    echo >> ../output/timings.txt
+    echo "---" >&1 | tee -a ../output/timings.txt
+    echo >&1 | tee -a ../output/timings.txt
 done
-python3 ../output/checker.py
+
+python3 ../output/timer.py
