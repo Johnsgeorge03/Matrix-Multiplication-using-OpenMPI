@@ -1,0 +1,13 @@
+#!/bin/bash
+declare a=(1 3 5 7 9)
+(cd ../src && make clean)
+(cd ../src && make all)
+
+for s in "${a[@]}"
+do
+    mpiexec -n "$s" ../src/main 100 200 300
+    python3 ../output/checker.py
+    rm ../output/mat.txt 
+done
+
+
