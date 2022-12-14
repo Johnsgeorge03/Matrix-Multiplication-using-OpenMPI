@@ -3,3 +3,8 @@
 
 #Ignore vscode file
 .vscode
+
+#ignore txt files
+.txt
+
+
